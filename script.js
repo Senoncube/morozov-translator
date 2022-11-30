@@ -12,6 +12,7 @@ document.getElementById('translate').onclick = function () {
         ['В', 'B'], ['Р', 'P'],
         ['О', 'O'], ['С', 'C'],
         ['Т', 'T'], ['І', 'l'],
+        ['і', 'i']
     ];
     repls.forEach(function (repl) {
         code = code.replaceAll(repl[0], repl[1]);
